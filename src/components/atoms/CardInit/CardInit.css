@@ -1,0 +1,7 @@
+.adventure-card {
+ width: 50px;
+ height: 50px;
+ width: 100%;
+ background-color: rgba(244, 240, 203, .8);
+ border-radius: .25rem;
+}
