@@ -34,7 +34,7 @@ function FormularioInscripcion() {
       <h2 className="titulo-formulario"></h2>
       {/* Agregar el botón para cargar la foto de perfil */}
       <div className="upload-profile-image">
-          <label htmlFor="profileImage">Cargar Foto de Perfil</label>
+          <label htmlFor="profileImage"></label>
           <input
             type="file"
             id="profileImage"

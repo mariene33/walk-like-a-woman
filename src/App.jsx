@@ -9,14 +9,6 @@ function App() {
    
     <Router/>
 
-  
-
-    // <div>
-      
-    //     {/* <CardInit/>
-    //     <Button variant="contained">Hello world</Button>
-    //     <Footer/> */}
-    // </div>
   );
 }
 

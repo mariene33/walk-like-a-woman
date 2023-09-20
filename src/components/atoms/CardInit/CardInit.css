@@ -1,7 +1,17 @@
 .adventure-card {
- width: 50px;
- height: 50px;
- width: 100%;
+ width: 220px;
+ height: 100px;
  background-color: rgba(244, 240, 203, .8);
- border-radius: .25rem;
+ border-radius: .40rem;
+ border-color: black;
+}
+
+.aventurate {
+
+    font-weight:bolder;
+    font-size:larger;
+    color:rgb(21, 34, 68);
+    text-align: center;
+    padding-top: 40px;
+
 }
