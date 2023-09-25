@@ -21,22 +21,21 @@ function VistaInicio() {
          <div>
        
         <tittle className="bienvenida">BIENVEVIDA A TU AVENTURA</tittle>
-        <br></br>
+          <br></br>
         <div className="card-group-inicio">
         <CardInit></CardInit> 
-<br></br>
+          <br></br>
         <CardInit></CardInit> 
-        <br></br>
+          <br></br>
 
         <CardInit></CardInit> 
-        <br></br>
+          <br></br>
         </div>      
-        </div>     
-        
-       
+        </div>   
+        <br></br> 
+    
         </section>  
         <div>
-        
         <BackButton></BackButton>
         </div>
         <Footer></Footer>

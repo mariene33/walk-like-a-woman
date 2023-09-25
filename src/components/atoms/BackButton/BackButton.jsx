@@ -1,16 +1,11 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
-
-
-
-
-// import './BackButton.css'
+import './BackButton.css'
 
 
 function BackButton () {
 
     return (
-        <button className="backbutton"> ATRÁS </button>
+        <button className="backbutton " > ATRÁS </button>
     )
 }
 
