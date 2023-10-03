@@ -1,0 +1,35 @@
+#aventurate-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../../assets/imagenes/iniciopanatalla.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav,
+footer {
+  width: 100%;
+}
+
+nav {
+  box-sizing: border-box;
+}
+
+#cards-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h2 {
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  color: beige;
+  font-weight: bold;
+}

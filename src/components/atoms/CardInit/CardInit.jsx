@@ -1,13 +1,13 @@
+import "./CardInit.css";
 
-import './CardInit.css'
-
-function CardInit (){
-
-    return (
-        <div className="adventure-card">
-      <h2 className="aventurate">AVENTÚRATE</h2>
-         </div>
-    )
+function CardInit({ title, link }) {
+  return (
+    <div className="adventure-card">
+      <a href={"/" + link}>
+        <h2 className="aventurate">{title}</h2>
+      </a>
+    </div>
+  );
 }
 
-export default CardInit
+export default CardInit;

@@ -1,34 +1,43 @@
 .formulario-inscripcion {
-    background-color: #011C45;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #011c45;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.formulario-inscripcion input,
+.formulario-inscripcion select,
+.formulario-inscripcion textarea {
+  box-sizing: border-box;
+  width: 90%;
+}
+
+.campo.checkbox {
+  display: flex;
+}
+
+.campo.checkbox input {
+  width: 40px;
 }
 
 .titulo-formulario {
-    color:beige;
+  color: beige;
 }
 
-.button-register{
-    margin-top: 10%;
-    background-color: #6596C3;
-    border-color: black;
+.button-register {
+  margin-top: 10%;
+  background-color: #6596c3;
+  border-color: black;
 }
-
 
 .campo {
-    margin: 7px;
+  margin: 7px;
 }
 
-.card {
-    height: 40%;
-    width: 60%;
-    background-color: rgba(244, 240, 203, .8);
-    border-radius: .25rem;
-    border: 1px solid #F4F0CB;
+#profileImage {
+  display: none;
 }

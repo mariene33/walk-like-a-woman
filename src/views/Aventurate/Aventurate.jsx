@@ -2,21 +2,19 @@ import React, { useState } from "react";
 import "./Aventurate.css";
 import Navbar from "../../components/molecules/Navbar/Navbar";
 import CardInit from "../../components/atoms/CardInit/CardInit";
-import BackButton from "../../components/atoms/BackButton/BackButton";
 import Footer from "../../components/molecules/Footer/Footer";
 
 function VistaAventurate() {
   return (
-    <section>
-      <div>
-        <Navbar></Navbar>
+    <section id="aventurate-container">
+      <Navbar></Navbar>
+      <h2>BIENVENIDA A TU AVENTURA</h2>
+      <div id="cards-container">
+        <CardInit title={"AVENTÚRATE"} link={"aventurate"}></CardInit>
+        <CardInit title={"INSPÍRATE"} link={"inspirate"}></CardInit>
+        <CardInit title={"MI VUELTA AL MUNDO"} link={"vuelta-mundo"}></CardInit>
       </div>
-
-      <CardInit></CardInit>
-
-      <div>
-        <Footer></Footer>
-      </div>
+      <Footer></Footer>
     </section>
   );
 }

@@ -16,7 +16,7 @@ function Navbar() {
         <ul className={`nav-list ${isOpen ? 'open' : ''}`}>
           <li><a href="/">Aventurate</a></li>
           <li><a href="/Ispirate">Inspirate</a></li>
-          <li><a href="/Mi vuelta a l mundo">Mi vuelta al mundo</a></li>
+          <li><a href="/Walk Like a Woman PROJECT">Mi vuelta al mundo</a></li>
           <li><a href="/Mi perfil">Mi perfil</a></li>
           <li><a href="/Cerrar sesión">Cerrar sesión</a></li>
         </ul>
