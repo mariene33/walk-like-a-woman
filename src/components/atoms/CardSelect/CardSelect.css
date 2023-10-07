@@ -1,0 +1,16 @@
+select{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(164, 151, 81);
+    width: 220px;
+    height: 100px;
+    background-color: rgba(244, 240, 203, 0.8);
+    border-radius: 0.4rem;
+  
+}
+
+option {
+    width: 100%;
+    font-size: .5em;
+}

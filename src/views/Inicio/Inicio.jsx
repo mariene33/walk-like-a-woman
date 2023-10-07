@@ -1,53 +1,22 @@
-import React, { useState } from 'react';
-import './Inicio.css'
-import Navbar from '../../components/molecules/Navbar/Navbar';
-import CardInit from '../../components/atoms/CardInit/CardInit';
-import BackButton from '../../components/atoms/BackButton/BackButton';
-import Footer from '../../components/molecules/Footer/Footer';
+import React, { useState } from "react";
+import "./Inicio.css";
+import Navbar from "../../components/molecules/Navbar/Navbar";
+import CardInit from "../../components/atoms/CardInit/CardInit";
+import Footer from "../../components/molecules/Footer/Footer";
 
-
-
-
-function VistaInicio() {
-     
-    return ( 
-        <div>
-
-
-        <Navbar></Navbar>
-        
-         <section className='fondo'>
-         
-         <div>
-       
-        <tittle className="bienvenida">BIENVEVIDA A TU AVENTURA</tittle>
-          <br></br>
-        <div className="card-group-inicio">
-        <CardInit></CardInit> 
-          <br></br>
-        <CardInit></CardInit> 
-          <br></br>
-
-        <CardInit></CardInit> 
-          <br></br>
-        </div>      
-        </div>   
-        <br></br> 
-    
-        </section>  
-        <div>
-        <BackButton></BackButton>
-        </div>
-        <Footer></Footer>
-        </div>
-    )
-   
-
+function VistaAventurate() {
+  return (
+    <section id="aventurate-container">
+      <Navbar></Navbar>
+      <h2>BIENVENIDA A TU AVENTURA</h2>
+      <div id="cards-container">
+        <CardInit title={"AVENTÚRATE"} link={"aventurate"}></CardInit>
+        <CardInit title={"INSPÍRATE"} link={"inspirate"}></CardInit>
+        <CardInit title={"MI VUELTA AL MUNDO"} link={"vuelta-mundo"}></CardInit>
+      </div>
+      <Footer></Footer>
+    </section>
+  );
 }
 
-
-
-export default VistaInicio
-
-
-
+export default VistaAventurate;

@@ -1,43 +1,35 @@
-.bienvenida {
-    font-weight: bold;
-    font-size: xx-large;
-    color:rgb(21, 34, 68);
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
-   
+#aventurate-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../../assets/imagenes/iniciopanatalla.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-.fondo {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image:url(../../assets/imagenes/iniciopanatalla.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(0, 0, 128, 0.5);
-    height: 100vh; /* Ajusta la altura según tus necesidades */
-    opacity: 0.33;
-   
+nav,
+footer {
+  width: 100%;
 }
 
-.card-group-inicio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5px;
+nav {
+  box-sizing: border-box;
 }
 
+#cards-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
-.contenedor-imagen {
-    position: relative;
-    display: inline-block;
-  }
-  
- 
-
-  
+h2 {
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  color: beige;
+  font-weight: bold;
+}

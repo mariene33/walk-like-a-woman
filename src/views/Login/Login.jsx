@@ -21,7 +21,7 @@ function Login() {
 
     console.log("Valor de Input 1:", input1);
     console.log("Valor de Input 2:", input2);
-    navigate("/aventurate");
+    navigate("/inicio");
     // loginUser({ username: input1, password: input2 });
   };
 
