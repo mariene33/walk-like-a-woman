@@ -6,7 +6,7 @@ import Footer from "../../components/molecules/Footer/Footer";
 
 function VistaAventurate() {
   return (
-    <section id="aventurate-container">
+    <section id="inicio-container">
       <Navbar></Navbar>
       <h2>BIENVENIDA A TU AVENTURA</h2>
       <div id="cards-container">

@@ -1,0 +1,32 @@
+#acampando-ando-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:
+      linear-gradient(rgba(236, 216, 182, 0.5), rgba(236, 216, 182, 0.5)),
+      url('../../assets/imagenes/acampandoando.jpg');
+    
+  }
+
+  #acampando-ando{
+    border: 2px solid #F4F0CB;
+    padding: 40px;
+    border-radius: 10px;
+    background-color:rgba(244, 240, 203, 0.13);
+    font-size: 1.5em;
+    margin-top: 50px;
+    padding: 10 px;
+    color: #F4F0CB
+}
+
+#acampando-ando-content{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+  

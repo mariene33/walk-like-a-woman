@@ -1,12 +1,15 @@
 import "./CardSelect.css";
+import { useNavigate } from "react-router-dom";
+
 
 function CardSelect({ title, defaultOption, options})
  {
+    const navigate = useNavigate();
     const handleSeleccionarOpcion = (e) => {
         const opcionSeleccionada = e.target.value;
   
     
-        // Aquí puedes ejecutar la acción que desees con la opción seleccionada
+        navigate("/" + opcionSeleccionada);
         console.log("Opción seleccionada:", opcionSeleccionada);
       };
 
