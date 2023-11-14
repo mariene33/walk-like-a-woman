@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 
-function Navbar() {
+function Navbar({ customClass }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar">
+    <nav className={"navbar " + customClass}>
       <div className="logo">WLW</div>
       <div className="nav-links">
         <ul className={`nav-list ${isOpen ? 'open' : ''}`}>

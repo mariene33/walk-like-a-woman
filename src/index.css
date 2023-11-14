@@ -68,6 +68,10 @@ button:focus-visible {
 }
 
 .custom-form input::placeholder {
-  font-weight: bold;
+  font-weight: bold; 
   font-size: 1.2em;
+}
+
+.position-fixed {
+  position: fixed;
 }

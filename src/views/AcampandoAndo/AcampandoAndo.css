@@ -9,24 +9,42 @@
     background-image:
       linear-gradient(rgba(236, 216, 182, 0.5), rgba(236, 216, 182, 0.5)),
       url('../../assets/imagenes/acampandoando.jpg');
+    overflow: auto;  
     
   }
 
   #acampando-ando{
     border: 2px solid #F4F0CB;
     padding: 40px;
+    /* margin:10px; */
     border-radius: 10px;
-    background-color:rgba(244, 240, 203, 0.13);
+    background-color:rgba(244, 240, 203, 0.50);
     font-size: 1.5em;
-    margin-top: 50px;
-    padding: 10 px;
-    color: #F4F0CB
+    margin-top: 100px;
+    
 }
 
-#acampando-ando-content{
+/* #acampando-ando-content{
     height: 100%;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+} */
+
+.acampando-ando-text{
+   
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 20px;
+    /* margin:10px; */
+    border-radius: 10px;
+    font-size: 0.8em ;
+    margin-top: 20px;
+    background-color: rgba(244, 240, 203,0.50); ;
+    color: black;    
 }
-  
+
+.acampando-ando-text:last-of-type {
+    margin-bottom: 10px;
+
+}

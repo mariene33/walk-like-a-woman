@@ -5,11 +5,12 @@
   background-color: #F4F0CB;
   color: #011C45;
   padding: 10px 20px;
+  box-shadow: 0 4px 20px -2px gray;
 }
 
 .logo {
   font-size: 24px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .nav-links {

@@ -5,6 +5,7 @@ import Inicio from "../views/Inicio/Inicio";
 import Aventurate from "../views/Aventurate/Aventurate";
 import DondeDormir from "../views/DondeDormir/DondeDormir";
 import AcampandoAndo from "../views/AcampandoAndo/AcampandoAndo";
+import Plataformas from "../views/Plataformas/Plataformas";
 
 const Router = () => {
   return (
@@ -16,6 +17,7 @@ const Router = () => {
         <Route path="/aventurate" element={<Aventurate />}></Route>
         <Route path="/donde-dormir" element={<DondeDormir />}></Route>
         <Route path="/acampando-ando" element={<AcampandoAndo />}></Route>
+        <Route path="/plataformas" element={<Plataformas />}></Route>
       </Routes>
     </BrowserRouter>
   );
