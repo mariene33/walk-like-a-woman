@@ -15,7 +15,7 @@ return (
     <Navbar></Navbar>
       {/* <div id="acampando-ando-content"> */}
         
-        <h1 id="acampando-ando">ACAMPANDO ANDO</h1>
+        <h1 id="acampando-ando">ACAMPANDO-ANDO</h1>
         
       {/* </div> */}
       

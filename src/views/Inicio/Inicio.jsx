@@ -8,7 +8,7 @@ function VistaAventurate() {
   return (
     <section id="inicio-container">
       <Navbar></Navbar>
-      <h2>BIENVENIDA A TU AVENTURA</h2>
+      <h2 className="bienvenida">BIENVENIDA A TU AVENTURA</h2>
       <div id="cards-container">
         <CardInit title={"AVENTÚRATE"} link={"aventurate"}></CardInit>
         <CardInit title={"INSPÍRATE"} link={"inspirate"}></CardInit>
