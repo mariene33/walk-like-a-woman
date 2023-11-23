@@ -1,0 +1,48 @@
+#higiene-femenina-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:
+      linear-gradient(rgba(236, 216, 182, 0.5), rgba(236, 216, 182, 0.5)),
+      url('../../assets/imagenes/tips.jpg');
+  }
+  
+  nav,
+  footer {
+    width: 100%;
+  }
+  
+  nav {
+    box-sizing: border-box;
+  }
+  
+  #cards-container { 
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }  
+
+
+#higiene-femenina-cards-container {
+  /* flex: 1; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  background-color: rgba(142, 91, 14, 0.5); 
+}
+
+#higiene-femenina-cards-container > div {
+  margin: 10px 0;
+}
+
+ 

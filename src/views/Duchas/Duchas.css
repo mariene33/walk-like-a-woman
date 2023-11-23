@@ -1,0 +1,14 @@
+.duchas {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:
+      linear-gradient(rgba(236, 216, 182, 0.5), rgba(236, 216, 182, 0.5)),
+      url('../../assets/imagenes/baño\ rio.jpg');
+    overflow: auto;  
+    
+  }

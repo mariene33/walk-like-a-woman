@@ -6,6 +6,8 @@ import Aventurate from "../views/Aventurate/Aventurate";
 import DondeDormir from "../views/DondeDormir/DondeDormir";
 import AcampandoAndo from "../views/AcampandoAndo/AcampandoAndo";
 import Plataformas from "../views/Plataformas/Plataformas";
+import HigieneFemenina from "../views/HigieneFemenina/HigieneFemenina";
+import Duchas from "../views/Duchas/Duchas";
 
 const Router = () => {
   return (
@@ -18,6 +20,8 @@ const Router = () => {
         <Route path="/donde-dormir" element={<DondeDormir />}></Route>
         <Route path="/acampando-ando" element={<AcampandoAndo />}></Route>
         <Route path="/plataformas" element={<Plataformas />}></Route>
+        <Route path="/higiene-femenina" element={<HigieneFemenina />}></Route>
+        <Route path="/duchas" element={<Duchas />}></Route>
       </Routes>
     </BrowserRouter>
   );
