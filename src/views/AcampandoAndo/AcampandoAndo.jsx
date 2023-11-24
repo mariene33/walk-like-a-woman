@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./AcampandoAndo.css";
 import Navbar from "../../components/molecules/Navbar/Navbar";
 import Footer from "../../components/molecules/Footer/Footer";
-import CardSelect from "../../components/atoms/CardSelect/CardSelect";
+
 
 function AcampandoAndo() {
 

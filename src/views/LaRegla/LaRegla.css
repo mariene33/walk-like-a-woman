@@ -1,21 +1,21 @@
-.duchas {
-    height: 100%;
+.la-regla {
+    flex: 1 0 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image:
       linear-gradient(rgba(236, 216, 182, 0.5), rgba(236, 216, 182, 0.5)),
-      url('../../assets/imagenes/bañorionegra.jpg');
+      url('../../assets/imagenes/cupmenstual.jpg');
     overflow: auto;  
     
   }
 
-  .duchas-tittle{
+  .la-regla-tittle{
    
-    border: 6px solid #F4F0CB;
+    font-weight: bold;
+    border: 3px solid #F4F0CB;
     padding: 20px;
     margin:10px;
     height: 50px;
@@ -23,13 +23,13 @@
     border-radius: 10px;
     font-size: 1.5em ;
     margin-top: 20px;
-    background-color: #112744;
+    background-color: #6596C3;
     color: #F4F0CB; 
     text-align: center;   
 }
 
-.duchas-text {
-    /* border: 2px solid black; */
+.la-regla-text {
+
     padding: 20px;
     margin:10px;
     border-radius: 10px;
@@ -39,4 +39,10 @@
     color: black; 
     width: 250px;   
 
+}
+
+.la-regla-section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
