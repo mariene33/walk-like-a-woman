@@ -7,7 +7,6 @@ import CardInit from "../../components/atoms/CardInit/CardInit";
 
 function HigieneFemenina() {
    
-
     return (
       <section id="higiene-femenina-container">
         <Navbar></Navbar>
@@ -20,7 +19,7 @@ function HigieneFemenina() {
 
           <CardInit title={"CABELLO"} link={"cabello"}></CardInit>
 
-          <CardInit title={"QUE ME LLEVO"} link={"que-me-llevo"}></CardInit>
+          <CardInit title={"QUE ME LLEVO"} link={"quemellevo"}></CardInit>
           
         </div>
         <Footer></Footer>
@@ -29,7 +28,5 @@ function HigieneFemenina() {
 
     );
   }
-
-
 
 export default HigieneFemenina;

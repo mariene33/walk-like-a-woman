@@ -9,6 +9,10 @@ import Plataformas from "../views/Plataformas/Plataformas";
 import HigieneFemenina from "../views/HigieneFemenina/HigieneFemenina";
 import Duchas from "../views/Duchas/Duchas";
 import LaRegla from "../views/LaRegla/LaRegla";
+import Cabello from "../views/Cabello/Cabello";
+import QueMeLlevo from "../views/QueMeLlevo/QueMeLlevo";
+import CuidaDeTiMisma from "../views/CuidaDeTiMisma/CuidaDeTiMisma";
+
 
 const Router = () => {
   return (
@@ -24,6 +28,9 @@ const Router = () => {
         <Route path="/higiene-femenina" element={<HigieneFemenina />}></Route>
         <Route path="/duchas" element={<Duchas />}></Route>
         <Route path="/la-regla" element={<LaRegla />}></Route>
+        <Route path="/cabello" element={<Cabello />}></Route>
+        <Route path="/QueMeLlevo" element={<QueMeLlevo />}></Route>
+        <Route path="/Cuida-De-Ti-Misma" element={<CuidaDeTiMisma />}></Route>
       </Routes>
     </BrowserRouter>
   );
