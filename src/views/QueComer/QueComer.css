@@ -1,0 +1,50 @@
+.que-comer {
+    flex: 1 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:
+      linear-gradient(rgba(236, 216, 182, 0.5), rgba(236, 216, 182, 0.5)),
+      url('../../assets/imagenes/frut.jpg');
+    overflow: auto;  
+    
+  }
+
+  .que-comer-tittle{
+   
+    font-weight: bold;
+    border: 3px solid #F4F0CB;
+    padding: 20px;
+    margin:10px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 1.5em ;
+    margin-top: 20px;
+    background-color: rgb(17, 39, 68, 0.35);
+    color: #F4F0CB; 
+    text-align: center;   
+}
+
+.que-comer-text {
+
+    padding: 20px;
+    margin:10px;
+    border-radius: 10px;
+    font-size: 0.8em ;
+    margin-top: 20px;
+    color: black; 
+    width: 250px;   
+    font-weight: bold;
+    background-color: rgba(230, 94, 126, 0.5);
+ 
+
+}
+
+.que-comer-section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}

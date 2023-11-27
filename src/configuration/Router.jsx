@@ -12,6 +12,8 @@ import LaRegla from "../views/LaRegla/LaRegla";
 import Cabello from "../views/Cabello/Cabello";
 import QueMeLlevo from "../views/QueMeLlevo/QueMeLlevo";
 import CuidaDeTiMisma from "../views/CuidaDeTiMisma/CuidaDeTiMisma";
+import QueComer from "../views/QueComer/QueComer";
+import Acampada from "../views/Acampada/Acampada";
 
 
 const Router = () => {
@@ -31,6 +33,8 @@ const Router = () => {
         <Route path="/cabello" element={<Cabello />}></Route>
         <Route path="/QueMeLlevo" element={<QueMeLlevo />}></Route>
         <Route path="/Cuida-De-Ti-Misma" element={<CuidaDeTiMisma />}></Route>
+        <Route path="/que-comer" element={<QueComer />}></Route>
+        <Route path="/acampada" element={<Acampada />}></Route>
       </Routes>
     </BrowserRouter>
   );
