@@ -16,6 +16,9 @@ import QueComer from "../views/QueComer/QueComer";
 import Acampada from "../views/Acampada/Acampada";
 import Ropa from "../views/Ropa/Ropa"
 import AutomInvierno from "../views/AutomInvierno/AutomInvierno"
+import PrimaveraVerano from "../views/PrimaveraVerano/PrimaveraVerano"
+import Accesorios from "../views/Accesorios/Accesorios"
+
 
 
 const Router = () => {
@@ -33,12 +36,14 @@ const Router = () => {
         <Route path="/duchas" element={<Duchas />}></Route>
         <Route path="/la-regla" element={<LaRegla />}></Route>
         <Route path="/cabello" element={<Cabello />}></Route>
-        <Route path="/QueMeLlevo" element={<QueMeLlevo />}></Route>
-        <Route path="/Cuida-De-Ti-Misma" element={<CuidaDeTiMisma />}></Route>
+        <Route path="/que-me-llevo" element={<QueMeLlevo />}></Route>
+        <Route path="/cuida-de-ti-misma" element={<CuidaDeTiMisma />}></Route>
         <Route path="/que-comer" element={<QueComer />}></Route>
         <Route path="/acampada" element={<Acampada />}></Route>
         <Route path="/ropa" element={<Ropa />}></Route>
-        <Route path="/AutomInvierno" element={<AutomInvierno />}></Route>
+        <Route path="/autom-invierno" element={<AutomInvierno />}></Route>
+        <Route path="/primavera-verano" element={<PrimaveraVerano />}></Route>
+        <Route path="/accesorios" element={<Accesorios />}></Route>
       </Routes>
     </BrowserRouter>
   );

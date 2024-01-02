@@ -7,14 +7,19 @@ import Footer from "../../components/molecules/Footer/Footer";
 function AutomInvierno () {
 
     return (
-        <div className="otoño-invierno-section">
+        <div className="autom-invierno-section">
             <Navbar></Navbar>
-            <section className="otoño-invierno">
-            <h1 className="otoño-invierno-tittle">OTOÑO/INVIERNO</h1>
-            <div className="otoño-invierno-text">
-           
-    
-            
+            <section className="autom-invierno">
+            <h1 className="autom-invierno-tittle">AUTOM/INVIERNO</h1>
+            <div className="autom-invierno-text">
+            hlaskfakfhkanckadckdsn ckadn 
+            xmdmczcbmbcvzmjdcbmbz
+           bzjdbvjkzbvnmvdbjzkbvmxbczjdvbz
+           jbcmzcbjdcbzjcbjkzckzjbcjkzb
+           cbjzkdcjbzkjdcbzdjkbcjkzbcjzb
+           dcjzdkbjkbcjz
+           czm ckhcbjzkjcbkbv v ssvh sihv
+           isd v 
             </div>
             </section>
         

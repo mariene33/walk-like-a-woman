@@ -19,7 +19,7 @@ function HigieneFemenina() {
 
           <CardInit title={"CABELLO"} link={"cabello"}></CardInit>
 
-          <CardInit title={"QUE ME LLEVO"} link={"quemellevo"}></CardInit>
+          <CardInit title={"QUE ME LLEVO"} link={"que-me-llevo"}></CardInit>
           
         </div>
         <Footer></Footer>

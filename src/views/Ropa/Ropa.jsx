@@ -19,9 +19,11 @@ function Ropa() {
         </span>
         <div id="ropa-cards-container">
        
-          <CardInit title={"otoño/invierno"} link={"autom-invierno"}></CardInit>
+          <CardInit title={"autom/invierno"} link={"autom-invierno"}></CardInit>
+          {/* <CardInit title={"autom/invierno"} link={"autom-invierno"}></CardInit> */}
           
           <CardInit title={"primavera/verano"} link={"primavera-verano"}></CardInit>
+          {/* <CardInit title={"primavera/verano"} link={"primavera-verano"}></CardInit> */}
           
         </div>
         <Footer></Footer>
