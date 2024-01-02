@@ -1,0 +1,51 @@
+#inspirate-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:
+      /* linear-gradient(rgba(236, 216, 182, 0.5), rgba(236, 216, 182, 0.5)), */
+      url('../../assets/imagenes/mar.jpg');
+  }
+  
+  nav,
+  footer {
+    width: 100%;
+  }
+  
+  nav {
+    box-sizing: border-box;
+  }
+  
+  #inspirate-container { 
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }  
+
+
+#inspirate-cards-container {
+  background-color: rgba(244, 240, 203, 0.5);
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 4px solid rgba(244, 240, 203, 0.5); 
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  
+}
+
+#inspirate-cards-container > div {
+  margin: 10px 0;
+}
+
+.text-inspirate{
+  font-size: 1.6em;
+  color: rgb(0, 10, 53);
+  
+}

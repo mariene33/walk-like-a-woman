@@ -18,6 +18,8 @@ import Ropa from "../views/Ropa/Ropa"
 import AutomInvierno from "../views/AutomInvierno/AutomInvierno"
 import PrimaveraVerano from "../views/PrimaveraVerano/PrimaveraVerano"
 import Accesorios from "../views/Accesorios/Accesorios"
+import Inspirate from "../views/Inspirate/Inspirate"
+import Blog from "../views/Blogs/Blogs"
 
 
 
@@ -44,6 +46,9 @@ const Router = () => {
         <Route path="/autom-invierno" element={<AutomInvierno />}></Route>
         <Route path="/primavera-verano" element={<PrimaveraVerano />}></Route>
         <Route path="/accesorios" element={<Accesorios />}></Route>
+        <Route path="/inspirate" element={<Inspirate />}></Route>
+        <Route path="/blogs" element={<Blog />}></Route>
+
       </Routes>
     </BrowserRouter>
   );
